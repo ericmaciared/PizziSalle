@@ -1,0 +1,91 @@
+DROP TABLE IF EXISTS pizza;
+CREATE TABLE pizza (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL
+);
+
+DROP TABLE IF EXISTS delegation;
+CREATE TABLE delegation(
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL
+);
+
+DROP TABLE IF EXISTS ingredient;
+CREATE TABLE ingredient (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL
+);
+
+DROP TABLE IF EXISTS pizza_ingredients;
+CREATE TABLE pizza_ingredients (
+    pizza_id INTEGER NOT NULL,
+    ingredient_id INTEGER NOT NULL,
+    FOREIGN KEY(pizza_id) REFERENCES pizza(id),
+    FOREIGN KEY(ingredient_id) REFERENCES ingredient(id),
+    PRIMARY KEY (pizza_id, ingredient_id)
+);
+
+-- Pizza
+INSERT INTO pizza(name) VALUES ('Margherita');
+INSERT INTO pizza(name) VALUES ('Hawaiian');
+INSERT INTO pizza(name) VALUES ('Bacon Crispy');
+INSERT INTO pizza(name) VALUES ('American');
+INSERT INTO pizza(name) VALUES ('Traviata');
+INSERT INTO pizza(name) VALUES ('Burger');
+INSERT INTO pizza(name) VALUES ('Castellera');
+INSERT INTO pizza(name) VALUES ('Cowboy');
+INSERT INTO pizza(name) VALUES ('Texas');
+INSERT INTO pizza(name) VALUES ('Coast');
+INSERT INTO pizza(name) VALUES ('BBQ');
+INSERT INTO pizza(name) VALUES ('Diablo');
+INSERT INTO pizza(name) VALUES ('Carbonara');
+INSERT INTO pizza(name) VALUES ('Spanish');
+INSERT INTO pizza(name) VALUES ('4 Cheeses');
+INSERT INTO pizza(name) VALUES ('Pepperoni');
+INSERT INTO pizza(name) VALUES ('Vegetal');
+INSERT INTO pizza(name) VALUES ('Barcelona');
+INSERT INTO pizza(name) VALUES ('Girona');
+INSERT INTO pizza(name) VALUES ('Tarragona');
+INSERT INTO pizza(name) VALUES ('Lleida');
+INSERT INTO pizza(name) VALUES ('6 Cheeses');
+INSERT INTO pizza(name) VALUES ('Mallorca');
+INSERT INTO pizza(name) VALUES ('Carbonara Deluxe');
+
+-- Delegations
+INSERT INTO delegation(name) VALUES ('PizziSalle Barcelona');
+INSERT INTO delegation(name) VALUES ('PizziSalle Lleida');
+INSERT INTO delegation(name) VALUES ('PizziSalle Girona');
+INSERT INTO delegation(name) VALUES ('PizziSalle Tarragona');
+
+-- Ingredients
+INSERT INTO ingredient(name) VALUES ('Cheese');
+INSERT INTO ingredient(name) VALUES ('Ham');
+INSERT INTO ingredient(name) VALUES ('Tomato Sauce');
+INSERT INTO ingredient(name) VALUES ('Pineapple');
+INSERT INTO ingredient(name) VALUES ('Chicken');
+INSERT INTO ingredient(name) VALUES ('Bacon');
+INSERT INTO ingredient(name) VALUES ('Frankfurt');
+INSERT INTO ingredient(name) VALUES ('Egg');
+INSERT INTO ingredient(name) VALUES ('Miniburgers');
+INSERT INTO ingredient(name) VALUES ('Onion');
+INSERT INTO ingredient(name) VALUES ('Tuna');
+INSERT INTO ingredient(name) VALUES ('Olives');
+INSERT INTO ingredient(name) VALUES ('Pepperoni');
+INSERT INTO ingredient(name) VALUES ('BBQ Sauce');
+INSERT INTO ingredient(name) VALUES ('Cheddar');
+INSERT INTO ingredient(name) VALUES ('Roquefort');
+INSERT INTO ingredient(name) VALUES ('Tomato Slices');
+INSERT INTO ingredient(name) VALUES ('Anchovies');
+INSERT INTO ingredient(name) VALUES ('Prawn');
+INSERT INTO ingredient(name) VALUES ('Beef');
+INSERT INTO ingredient(name) VALUES ('Carbonara Sauce');
+INSERT INTO ingredient(name) VALUES ('Mushrooms');
+INSERT INTO ingredient(name) VALUES ('Serrano Ham');
+INSERT INTO ingredient(name) VALUES ('Brie');
+INSERT INTO ingredient(name) VALUES ('Mozzarella');
+INSERT INTO ingredient(name) VALUES ('Emmental');
+INSERT INTO ingredient(name) VALUES ('Bell Pepper');
+INSERT INTO ingredient(name) VALUES ('Artichoke');
+INSERT INTO ingredient(name) VALUES ('Goat Cheese');
+INSERT INTO ingredient(name) VALUES ('Sobrassada');
+INSERT INTO ingredient(name) VALUES ('Honey');
