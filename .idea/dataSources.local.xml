@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-223.8214.52">
+    <data-source name="pizza.sqlite" uuid="342d4487-2bd0-47af-9cf9-287ec332716c">
+      <database-info product="SQLite" version="3.39.2" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.39.2.0" dbms="SQLITE" exact-version="3.39.2" exact-driver-version="3.39">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

@@ -1,3 +1,5 @@
+--Run this code in sqlite console if tables have not been created.
+
 DROP TABLE IF EXISTS pizza;
 CREATE TABLE pizza (
     id INTEGER PRIMARY KEY,

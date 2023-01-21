@@ -1,32 +1,39 @@
+import javax.print.DocFlavor;
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+
 public class Order {
     private Customer customer;
     private Pizza pizza;
-    private int drink;
+    private String drink;
 
-    public Order(Customer customer, Pizza pizza, int drink) {
-        this.customer = customer;
-        this.pizza = pizza;
-        this.drink = drink;
+    public Order() {}
+
+    public void notifyCustomer() {
+        System.out.println("Here's your order:");
+        System.out.println("Order for: " + customer.toString());
+        System.out.println("Pizza: " + pizza.toString());
+        System.out.println("Drink: " + drink);
+
+        System.out.println("Thank you for eating at PizziSalle " + customer.getDelegation() + ". Come back soon!");
     }
 
     public Customer getCustomer() {
         return customer;
     }
 
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+
     public Pizza getPizza() {
         return pizza;
     }
 
-    public int getDrink() {
-        return drink;
+    public void setPizza(Pizza pizza) {
+        this.pizza = pizza;
     }
 
-    public void storeInDatabase() {
-        //TODO: Store order in database
-
-    }
-
-    public void notifyCustomer() {
-        System.out.println("Order is ready");
+    public void setDrink(String drink) {
+        this.drink = drink;
     }
 }

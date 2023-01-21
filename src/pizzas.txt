@@ -1,23 +1,24 @@
 Margherita:
-Hawaiian: Ham, Pineapple
-Bacon Crispy: Ham, Chicken, Bacon
-American: Frankfurt, Bacon, Egg
-Traviata: Bacon, Sausage, Onion
-Castellera: Onion, Tuna, Pepperoni, Olives
-Cowboy: BBQ Sauce, Cheddar, Roquefort, Bacon
-Texas: BBQ Sauce, Onion, Tomato Slices, Chicken
-Coast: Tuna, Anchovies, Prawns, Pineapple
-BBQ: BBQ Sauce, Beef, Bacon, Chicken
-Diablo: Ham, Beef, Bacon, Chicken
-Carbonara: Carbonara Sauce, Bacon, Onion, Mushrooms
-Spanish: Serrano Ham, Brie, Olives, Mushrooms
-4 Cheeses: Mozzarella, Emmental, Roquefort, Cheddar
-Pepperoni: Pepperoni, Ham, Beef, Bacon
-Vegetal: Onion, Bell Pepper, Tomato Slices, Artichoke, Mushrooms
-Barcelona*: Onion, Beef, Brie, Ham, Olives
-Girona*: Beef, Ham, Mushrooms, Chicken, Olives
-Tarragona*: Tuna, Prawns, Onion, Ham, Olives
-Lleida*: BBQ Sauce, Beef, Chicken, Mushrooms, Olives
-6 Cheeses: Mozzarella, Goat Cheese, Brie, Emmental, Roquefort, Cheddar
-Mallorca: Goat Cheese, Emmental, Cheddar, Brie, Sobrassada, Olives
-Carbonara Deluxe: Carbonara Sauce, Bacon, Onion, Mushrooms, Goat Cheese, Honey
+Hawaiian:Ham,Pineapple
+Bacon Crispy:Ham,Chicken,Bacon
+American:Frankfurt,Bacon,Egg
+Traviata:Bacon,Sausage,Onion
+Burger:Miniburgers,Egg,Bacon,Onion
+Castellera:Onion,Tuna,Pepperoni,Olives
+Cowboy:BBQ Sauce,Cheddar,Roquefort,Bacon
+Texas:BBQ Sauce,Onion,Tomato Slices,Chicken
+Coast:Tuna,Anchovies,Prawns,Pineapple
+BBQ:BBQ Sauce,Beef,Bacon,Chicken
+Diablo:Ham,Beef,Bacon,Chicken
+Carbonara:Carbonara Sauce,Bacon,Onion,Mushrooms
+Spanish:Serrano Ham,Brie,Olives,Mushrooms
+4 Cheeses:Mozzarella,Emmental,Roquefort,Cheddar
+Pepperoni:Pepperoni,Ham,Beef,Bacon
+Vegetal:Onion,Bell Pepper,Tomato Slices,Artichoke,Mushrooms
+Barcelona:Onion,Beef,Brie,Ham,Olives
+Girona:Beef,Ham,Mushrooms,Chicken,Olives
+Tarragona:Tuna,Prawns,Onion,Ham,Olives
+Lleida:BBQ Sauce,Beef,Chicken,Mushrooms,Olives
+6 Cheeses:Mozzarella,Goat Cheese,Brie,Emmental,Roquefort,Cheddar
+Mallorca:Goat Cheese,Emmental,Cheddar,Brie,Sobrassada,Olives
+Carbonara Deluxe:Carbonara Sauce,Bacon,Onion,Mushrooms,Goat Cheese,Honey
